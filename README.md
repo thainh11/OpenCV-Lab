@@ -10,13 +10,19 @@ In this lab, we delve into the fundamentals of computer vision using OpenCV. The
 
 1. **Image Processing Basics:** Introduction to basic image operations, such as loading images, color space conversions, and basic filtering.
 
-2. **Feature Detection and Matching:** Exploring keypoint detection, feature matching, and image alignment using OpenCV functions.
+2. **Drawing rectangle using console:** Discovery the location of the ponit. You can draw the rectangle and rotate it.
 
-3. **Object Detection:** Implementing object detection using pre-trained models and exploring techniques like Haar cascades.
+3. **Process image with console:** Changing the color channel with console and visualize the result .
 
-4. **Image Segmentation:** Understanding image segmentation techniques, such as thresholding, contour detection, and watershed algorithm.
+4. **Hough Transform:** Understanding hough transform algorithm.
 
-5. **Camera Calibration:** Calibrating a camera using OpenCV for geometric corrections and obtaining accurate measurements from images.
+5. **Algorithms combinaation:** Understanding the snake, watershed, kmeans and mean shift segmentation.
+
+6.  **Image Alignment using RANSAC with streamlit:** Do the alignment image with streamlit plattform.
+
+7.  **Stitching two image with console:** Do stitching for 2 image
+
+8.  **Face Detection:** Understanding basic face detection algorithms.
 
 ## Getting Started
 
@@ -27,6 +33,7 @@ Before running the code, make sure you have the following dependencies installed
 - Python (3.x recommended)
 - OpenCV
 - NumPy
+- Streamlit
 
 You can install the required packages using the following command:
 
@@ -39,19 +46,9 @@ pip install opencv-python numpy
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/OpenCV-Lab.git
+git clone [https://github.com/your-username/OpenCV-Lab.git](https://github.com/thainh11/OpenCV-Lab.git)
 ```
 
-### Running the Code
-
-Navigate to the project directory and run the Python scripts for each module:
-
-```bash
-cd OpenCV-Lab
-python module1_image_processing.py
-```
-
-Repeat the above command for each module, replacing the script name accordingly.
 
 ## Contributing
 
